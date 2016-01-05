@@ -1,0 +1,3 @@
+requests==2.9.1
+weibo==0.2.2
+wsgiref==0.1.2
