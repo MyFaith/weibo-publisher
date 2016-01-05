@@ -63,9 +63,3 @@ if __name__ == '__main__':
     # -------------------发布微博-------------------
     weibo_content = u'今天是%s %s，%s，温度【%s】，%s，空气质量【%s】，PM2.5【%s】，更新时间【%s】'%(date, week, weather, temperature, wind, quality, aqi, update_time)
     c.post('statuses/update', status=weibo_content)
-
-
-
-
-
-
