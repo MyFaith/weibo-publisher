@@ -4,11 +4,11 @@ from weibo import Client
 import requests
 import json
 
-APP_KEY = '2957578717'
-APP_SECRET = '82e32db25e938fe730ce24a66f4c6019'
-CALLBACK = 'http://myfaith.link'
-USERNAME = '18622824720'
-PASSWORD = 'woaiqing'
+APP_KEY = ''
+APP_SECRET = ''
+CALLBACK = ''
+USERNAME = ''
+PASSWORD = ''
 
 def getClient(app_key, app_secret, call_back, username, password):
     client = Client(api_key=app_key, api_secret=app_secret, redirect_uri=call_back, username=username, password=password)
